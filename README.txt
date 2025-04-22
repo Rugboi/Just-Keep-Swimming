@@ -1,0 +1,11 @@
+Place your swimwear photos here:
+- hero-swim.jpg
+- kids-pool.jpg
+- adult-beach.jpg
+- plus-size-pool.jpg
+- gallery1.jpg
+- gallery2.jpg
+- gallery3.jpg
+- alex-beach.jpg
+- maria-mateo-pool.jpg
+- jordan-pool.jpg

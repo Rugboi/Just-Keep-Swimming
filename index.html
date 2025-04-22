@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Just Keep Swimming - Swimwear for Real People</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Header with Logo -->
+  <header class="bg-white shadow-md fixed w-full z-20">
+    <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+      <!-- Inline SVG Logo -->
+      <a href="#" class="flex items-center">
+        <svg width="40" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 60 C 30 30, 70 90, 90 60" stroke="#1E3A8A" stroke-width="8" fill="none" />
+          <text x="50%" y="55%" fill="#1E3A8A" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" alignment-baseline="middle">JKS</text>
+        </svg>
+        <span class="ml-3 text-2xl font-semibold text-blue-900">Just Keep Swimming</span>
+      </a>
+      <nav class="space-x-6">
+        <a href="#shop" class="text-blue-700 hover:text-blue-900 font-medium">Shop</a>
+        <a href="#features" class="text-blue-700 hover:text-blue-900 font-medium">Features</a>
+        <a href="#testimonials" class="text-blue-700 hover:text-blue-900 font-medium">Testimonials</a>
+      </nav>
+      <a href="#shop" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Shop Now</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative h-screen overflow-hidden">
+    <img src="images/hero-swim.jpg" alt="People in swimwear at the beach" class="absolute inset-0 w-full h-full object-cover" />
+    <div class="absolute inset-0 bg-blue-900 bg-opacity-60"></div>
+    <div class="container mx-auto px-6 h-full flex flex-col justify-center items-center relative">
+      <h1 class="text-4xl md:text-6xl text-white font-extrabold mb-4 drop-shadow-lg">Swimwear by the People, for the People</h1>
+      <p class="text-lg md:text-2xl text-gray-200 mb-8">Real bodies, real confidence – swimwear for all ages and shapes.</p>
+      <a href="#shop" class="bg-white text-blue-600 font-semibold px-8 py-4 rounded shadow-lg hover:bg-gray-100 transition transform hover:-translate-y-1">Explore Collection</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center text-blue-900 mb-12">Why Choose Just Keep Swimming?</h2>
+      <div class="grid gap-12 md:grid-cols-3">
+        <div class="text-center p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transform hover:scale-105 transition">
+          <img src="images/kids-pool.jpg" alt="Kids wearing swimwear by the pool" class="w-24 h-24 mx-auto mb-4 rounded-full border-4 border-blue-600 object-cover" />
+          <h3 class="text-xl font-semibold mb-2 text-blue-800">Inclusive Fits</h3>
+          <p class="text-gray-600">Designed for every body—celebrating diversity and comfort with sizes from XS to 5XL.</p>
+        </div>
+        <div class="text-center p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transform hover:scale-105 transition">
+          <img src="images/adult-beach.jpg" alt="Adult swimwear on beach" class="w-24 h-24 mx-auto mb-4 rounded-full border-4 border-blue-600 object-cover" />
+          <h3 class="text-xl font-semibold mb-2 text-blue-800">Customer-Powered Ads</h3>
+          <p class="text-gray-600">Your selfies in JKS gear become our ads—real photos, zero airbrushing.</p>
+        </div>
+        <div class="text-center p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transform hover:scale-105 transition">
+          <img src="images/plus-size-pool.jpg" alt="Plus-size swimwear by pool" class="w-24 h-24 mx-auto mb-4 rounded-full border-4 border-blue-600 object-cover" />
+          <h3 class="text-xl font-semibold mb-2 text-blue-800">Premium Quality</h3>
+          <p class="text-gray-600">Durable fabrics and vibrant prints that stand up to sun, sand, and chlorine.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="py-20 bg-gray-100">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center text-blue-900 mb-8">Real Customers, Real Moments</h2>
+      <div class="grid gap-6 md:grid-cols-3">
+        <img src="images/gallery1.jpg" alt="Family at beach wearing swimwear" class="w-full h-64 object-cover rounded-lg shadow-lg" />
+        <img src="images/gallery2.jpg" alt="Friends at poolside" class="w-full h-64 object-cover rounded-lg shadow-lg" />
+        <img src="images/gallery3.jpg" alt="Couple on pool deck" class="w-full h-64 object-cover rounded-lg shadow-lg" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Carousel -->
+  <section id="testimonials" class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center text-blue-900 mb-8">#JustKeepSwimming in Action</h2>
+      <div class="relative">
+        <div id="carousel" class="flex space-x-6 overflow-x-auto snap-x snap-mandatory scrollbar-hide">
+          <div class="snap-center flex-shrink-0 w-full md:w-1/3 bg-gray-50 p-6 rounded-lg shadow-lg">
+            <img src="images/alex-beach.jpg" alt="Alex at beach" class="w-16 h-16 rounded-full mx-auto mb-4 object-cover" />
+            <p class="mb-4 italic text-gray-700">“Finally, swimwear that looks like everyone I know! Love my new suit.”</p>
+            <h4 class="font-semibold text-blue-800">Alex, 29</h4>
+          </div>
+          <div class="snap-center flex-shrink-0 w-full md=w-1/3 bg-gray-50 p-6 rounded-lg shadow-lg">
+            <img src="images/maria-mateo-pool.jpg" alt="Maria & Mateo at pool" class="w-16 h-16 rounded-full mx-auto mb-4 object-cover" />
+            <p class="mb-4 italic text-gray-700">“My son and I now match—and he’s never been more confident in the pool.”</p>
+            <h4 class="font-semibold text-blue-800">Maria & Mateo</h4>
+          </div>
+          <div class="snap-center flex-shrink-0 w-full md=w-1/3 bg-gray-50 p-6 rounded-lg shadow-lg">
+            <img src="images/jordan-pool.jpg" alt="Jordan at pool" class="w-16 h-16 rounded-full mx-auto mb-4 object-cover" />
+            <p class="mb-4 italic text-gray-700">“Such a great idea: real customers, real photos, zero airbrushing.”</p>
+            <h4 class="font-semibold text-blue-800">Jordan, 34</h4>
+          </div>
+        </div>
+        <button onclick="scrollCarousel(-1)" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-gray-200 transition">
+          &larr;
+        </button>
+        <button onclick="scrollCarousel(1)" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-gray-200 transition">
+          &rarr;
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shop CTA -->
+  <section id="shop" class="py-20 bg-blue-600 text-white text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-6 drop-shadow-lg">Join the Movement</h2>
+    <p class="mb-8 text-lg md:text-xl">Snap a pic in your JKS gear with #JustKeepSwimming and be featured next!</p>
+    <a href="#" class="bg-white text-blue-600 font-semibold px-8 py-4 rounded shadow-lg hover:bg-gray-100 transition transform hover:-translate-y-1">Shop Now</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 bg-white text-center text-gray-600">
+    <p>&copy; 2025 Just Keep Swimming. All rights reserved.</p>
+  </footer>
+
+  <!-- Carousel Script -->
+  <script>
+    const carousel = document.getElementById('carousel');
+    function scrollCarousel(direction) {
+      const width = carousel.offsetWidth;
+      carousel.scrollBy({ left: direction * width, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
